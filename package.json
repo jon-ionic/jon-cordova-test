@@ -37,7 +37,6 @@
     "@angular/compiler": "^15.0.0",
     "@angular/compiler-cli": "^15.0.0",
     "@angular/language-service": "^15.0.0",
-    "@havesource/cordova-plugin-push": "^3.0.1",
     "@ionic/angular-toolkit": "^9.0.0",
     "@types/jasmine": "~4.0.0",
     "@types/node": "^12.11.1",
@@ -46,6 +45,7 @@
     "cordova-android": "^11.0.0",
     "cordova-ios": "^6.3.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-ionic": "^5.5.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-push": "^0.0.1",
@@ -74,10 +74,13 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
-      "@havesource/cordova-plugin-push": {
-        "ANDROIDX_CORE_VERSION": "1.6.+",
-        "FCM_VERSION": "18.+",
-        "IOS_FIREBASE_MESSAGING_VERSION": "~> 6.32.2"
+      "cordova-plugin-ionic": {
+        "APP_ID": "c5838e2d",
+        "CHANNEL_NAME": "Production",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
       }
     },
     "platforms": [
