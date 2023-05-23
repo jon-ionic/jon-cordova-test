@@ -37,6 +37,7 @@
     "@angular/compiler": "^15.0.0",
     "@angular/compiler-cli": "^15.0.0",
     "@angular/language-service": "^15.0.0",
+    "@havesource/cordova-plugin-push": "^3.0.1",
     "@ionic/angular-toolkit": "^9.0.0",
     "@types/jasmine": "~4.0.0",
     "@types/node": "^12.11.1",
@@ -47,6 +48,7 @@
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-push": "^0.0.1",
     "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "eslint": "^7.6.0",
@@ -71,11 +73,16 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "@havesource/cordova-plugin-push": {
+        "ANDROIDX_CORE_VERSION": "1.6.+",
+        "FCM_VERSION": "18.+",
+        "IOS_FIREBASE_MESSAGING_VERSION": "~> 6.32.2"
+      }
     },
     "platforms": [
-      "ios",
-      "android"
+      "android",
+      "ios"
     ]
   }
 }
