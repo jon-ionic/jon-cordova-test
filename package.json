@@ -45,10 +45,10 @@
     "cordova-android": "^11.0.0",
     "cordova-ios": "^6.3.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-ionic": "^5.5.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-push": "^0.0.1",
-    "cordova-plugin-splashscreen": "5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
     "eslint": "^7.6.0",
     "eslint-plugin-import": "2.22.1",
@@ -70,7 +70,6 @@
     "plugins": {
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
-      "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-ionic": {
