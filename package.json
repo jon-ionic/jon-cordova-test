@@ -44,10 +44,18 @@
     "@typescript-eslint/parser": "5.3.0",
     "cordova-android": "^11.0.0",
     "cordova-ios": "^6.3.0",
+    "cordova-plugin-add-swift-support": "^2.0.2",
+    "cordova-plugin-app-version": "^0.1.14",
+    "cordova-plugin-appcenter-analytics": "^0.5.1",
+    "cordova-plugin-appcenter-crashes": "^0.5.1",
+    "cordova-plugin-appcenter-shared": "^0.5.1",
+    "cordova-plugin-apprate": "^1.8.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-ionic": "^5.5.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-nativestorage": "^2.3.2",
     "cordova-plugin-push": "^0.0.1",
     "cordova-plugin-statusbar": "^2.4.2",
     "eslint": "^7.6.0",
@@ -84,6 +92,14 @@
       "ionic-plugin-deeplinks": {
         "URL_SCHEME": "asdf",
         "DEEPLINK_HOST": "asdf"
+      },
+      "cordova-plugin-add-swift-support": {},
+      "cordova-plugin-app-version": {},
+      "cordova-plugin-appcenter-analytics": {},
+      "cordova-plugin-appcenter-crashes": {},
+      "cordova-plugin-appcenter-shared": {},
+      "cordova-plugin-apprate": {
+        "PLAY_REVIEW_VERSION": "2.+"
       }
     },
     "platforms": [
