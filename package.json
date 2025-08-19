@@ -52,6 +52,9 @@
     "cordova-plugin-apprate": "^1.8.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-facebook4": "^6.4.0",
+    "cordova-plugin-fingerprint-aio": "^6.0.1",
+    "cordova-plugin-inappbrowser": "^4.1.0",
     "cordova-plugin-ionic": "^5.5.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
@@ -100,7 +103,10 @@
       "cordova-plugin-appcenter-shared": {},
       "cordova-plugin-apprate": {
         "PLAY_REVIEW_VERSION": "2.+"
-      }
+      },
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-fingerprint-aio": {},
+      "cordova-plugin-inappbrowser": {}
     },
     "platforms": [
       "android",
